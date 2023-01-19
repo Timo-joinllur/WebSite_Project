@@ -21,7 +21,17 @@ body{
 nav{
     background-color: #1A1A1D;
 }
+.mapouter{
+    position:relative;text-align:right;height:424px;width:799px;
+    margin-top: 250px ;
+    margin-left: 465px;
+}
 
+.p1{
+    margin-top: 200px ;
+    margin-left: 100px;
+
+}
 
 
 
