@@ -1,7 +1,4 @@
 
-body{
-    
-}
 .Name{
     padding: 0;
     display: inline-flex;
@@ -24,8 +21,10 @@ nav{
 }
 .mapouter{
     position:relative;text-align:right;height:424px;width:799px;
-    margin-top: 250px ;
+    margin-top: 5px ;
     margin-left: 465px;
+    padding-bottom: 5px;
+
 }
 
 .p1{
@@ -35,14 +34,40 @@ nav{
 }
 
 
+
+.nav-item {
+        font-family: 'Ranga', cursive;
+    color: #1A1A1D;
+}
+
+
+
+article{
+    background-color: #6F2232;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 500px){
     
     #navbarNavDropdown{
         margin-left: 0;
         text-align: left;
     }
-}
-.nav-item {
-        font-family: 'Ranga', cursive;
-    color: #1A1A1D;
 }
