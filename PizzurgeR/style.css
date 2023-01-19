@@ -12,7 +12,9 @@ body{
     
 }
 #navbarNavDropdown{
+    font-size: 27px;
     margin-left: 200px;
+    font-weight: bold;
 }
 
 .nav-link h1{
@@ -29,9 +31,10 @@ nav{
 
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     
     #navbarNavDropdown{
         margin-left: 0;
+        text-align: left;
     }
 }
