@@ -1,10 +1,31 @@
+
+body{
+    font-family: 'Ranga', cursive;
+    color: #1A1A1D;
+}
 .Name{
     padding: 0;
     display: inline-flex;
+    
 }
 #navbarNavDropdown{
-    margin-left: 500px;
+    margin-left: 200px;
 }
+
+.nav-link h1{
+    padding-left: 80px;
+}
+nav{
+    background-color: #1A1A1D;
+}
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 400px){
     
     #navbarNavDropdown{
