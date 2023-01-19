@@ -1,8 +1,6 @@
 
 body{
-    font-family: 'Ranga', cursive;
-    color: #1A1A1D;
-
+    
 }
 .Name{
     padding: 0;
@@ -20,16 +18,10 @@ body{
 .nav-link p{
     padding-left: 80px;
 }
+
 nav{
     background-color: #1A1A1D;
 }
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 500px){
     
@@ -37,4 +29,8 @@ nav{
         margin-left: 0;
         text-align: left;
     }
+}
+.nav-item {
+        font-family: 'Ranga', cursive;
+    color: #1A1A1D;
 }
