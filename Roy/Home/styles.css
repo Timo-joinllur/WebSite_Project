@@ -1,6 +1,7 @@
 body{
     font-family: 'Ranga';
-    background-image: url(/Roy/images/backgroundCompressed.jpg);
+  /*  background-image: url(/Roy/images/backgroundOriginal.jpg);*/
+  background-color: #1a1a1d;
     color: white;
 
 }
