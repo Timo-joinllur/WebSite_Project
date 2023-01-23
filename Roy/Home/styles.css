@@ -12,3 +12,9 @@ body{
 
 }
 
+.carousel-item > img {
+  height: auto;
+  width: 60%;
+
+}
+
