@@ -24,10 +24,14 @@ display: flex;
 flex-direction: row-reverse;
 align-items: stretch;
 }
-.main { grid-area: main; background-color: #1A1A1D; opacity: 93%; }
+.main { grid-area: main; background-color: #1A1A1D; opacity: 93%;
+flex-wrap: wrap;
+}
 .left { grid-area: left; opacity: 0%; }
 .right { grid-area: right; opacity: 0%; }
-.footer { grid-area: footer; background-color:#4E4E50; opacity: 96%; }
+.footer { grid-area: footer; background-color:#4E4E50; opacity: 96%;
+
+}
 
 .grid-container {    background-image: url("bg.jpg");
     opacity: 80%;
@@ -46,6 +50,20 @@ align-items: stretch;
 
 .grid-container > div {
     object-fit: cover;
+}
+
+.button {
+    width: 15vw;
+    font-family: 'Ranga', cursive;
+    background-color: #4E4E50;
+    color: #ffff;
+    font-size: 100%;
+    opacity: 93%;
+    
+}
+
+.button:hover {
+    box-shadow: 0 10px 16px 0 rgba(235, 190, 157, 0.13),0 50px 50px 0 rgba(0,0,0,0.19);
 }
 
 <!--#1A1A1D-->
