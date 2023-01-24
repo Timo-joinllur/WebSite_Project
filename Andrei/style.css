@@ -113,6 +113,8 @@ transform: translate(-50%, -50%);
   height: 0;
 }
 
+.invisible {display: none;}
+
 @media (max-width: 560px){
     .button { width: 13%; font-size: 75%;}
     
@@ -125,7 +127,7 @@ transform: translate(-50%, -50%);
     'footer footer footer footer footer footer footer footer footer footer footer footer';
 }
 
-    invisible {display: flex;}
+    .invisible {display: flex; width: 100%;}
 }
     
 <!--#1A1A1D-->
