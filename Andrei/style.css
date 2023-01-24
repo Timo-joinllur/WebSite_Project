@@ -43,13 +43,16 @@ transform: translate(-50%, -50%);
     padding: 30px;
     align-content: stretch;
 }
+
+
+
 .left { grid-area: left; opacity: 0%; }
 .right { grid-area: right; opacity: 0%; }
 .footer { grid-area: footer; background-color:#4E4E50; opacity: 96%;
     display:flex;
     flex-wrap: wrap;
-    flex-grow: 24;
 }
+
 
 .grid-container {    background-image: url("bg.jpg");
     opacity: 80%;
@@ -58,7 +61,7 @@ transform: translate(-50%, -50%);
 }
 
 .grid-container {
-    grid-template-rows: 40px auto 100px;
+    grid-template-rows: 40px auto 120px;
     grid-template-columns: 5vw auto auto auto auto auto auto auto auto auto auto 5vw;
     grid-template-areas:
     'header header header header header header header header header header header header'
@@ -110,6 +113,21 @@ transform: translate(-50%, -50%);
   height: 0;
 }
 
+@media (max-width: 560px){
+    .button { width: 13%; font-size: 75%;}
+    
+    .grid-container {
+    grid-template-rows: 40px auto 200px;
+    grid-template-columns: 5vw auto auto auto auto auto auto auto auto auto auto 5vw;
+    grid-template-areas:
+    'header header header header header header header header header header header header'
+    'left main main main main main main main main main main right'
+    'footer footer footer footer footer footer footer footer footer footer footer footer';
+}
+
+    invisible {display: flex;}
+}
+    
 <!--#1A1A1D-->
 <!--#4E4E50--> 
 <!--#6F2232-->
