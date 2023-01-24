@@ -15,7 +15,7 @@
   </head>
   <body>
     
-    <nav class="navbar navbar-expand-lg" style="background-color: #6F2232;">
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #6F2232;">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="/Roy/images/pizzburger.jpg" alt="Logo" width="60" height="60" class="d-inline-block align-text-center">
@@ -35,7 +35,7 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
 
     <div class="row">
       <div class="col-md-12 text-center">
@@ -44,17 +44,33 @@
       </div>
     </div>
 
-
     <div id="carousel" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="/Roy/images/pizza1.jpg" class="d-block"alt="pizza1">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>"Food name"</h3>
+            <p>"Short description."</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="/Roy/images/burger1.jpg" class="d-block"alt="burger1">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>"Food name"</h3>
+            <p>"Short description."</p>
+          </div>
         </div>
         <div class="carousel-item">
           <img src="/Roy/images/pizza2.jpg" class="d-block"alt="pizza2">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>"Food name"</h3>
+            <p>"Short description."</p>
+          </div>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -67,14 +83,57 @@
       </button>
     </div>
 
+    <div class="row">
 
+      <div class="col-md-5"> 
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar rutrum iaculis. Donec quis tempor nunc. Cras luctus sagittis semper. Fusce ac euismod velit, sed rhoncus eros. Sed et ipsum ut ex venenatis ultrices tempus nec eros. Nam lacinia feugiat nibh ut accumsan. 
+          Integer ornare sagittis augue, non tempus augue mollis sit amet. Quisque ornare nisi vitae purus ultrices ultrices. 
+          Pellentesque nunc eros, pulvinar at eleifend eget, laoreet ornare elit. Aliquam at purus semper, tempor ligula sit amet, lacinia augue.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar rutrum iaculis. Donec quis tempor nunc. Cras luctus sagittis semper. Fusce ac euismod velit, sed rhoncus eros. Sed et ipsum ut ex venenatis ultrices tempus nec eros. Nam lacinia feugiat nibh ut accumsan. 
+            Integer ornare sagittis augue, non tempus augue mollis sit amet. Quisque ornare nisi vitae purus ultrices ultrices. 
+            Pellentesque nunc eros, pulvinar at eleifend eget, laoreet ornare elit. Aliquam at purus semper, tempor ligula sit amet, lacinia augue.</p>
+      </div>
 
-
-
-
-
-  
+      <div class="col-md-7"> 
+        <img class="img-fluid image1" src="/Roy/images/sign.jpg">
+      </div>
     </div>
+
+    <footer>
+      <div class="container footer">
+        <div class="row">
+          <div class="col-4">
+            <div class="social-icons">
+              <img src="/Roy/images/twitter.jpg">
+              <img src="/Roy/images/facebook.jpg">
+              <img src="/Roy/images/instagram.jpg">
+            </div>
+          </div>
+          <div class="col-4">
+            <p>Middle Section</p>
+          </div>
+          <div class="col-4">
+            <p>Right Section</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
