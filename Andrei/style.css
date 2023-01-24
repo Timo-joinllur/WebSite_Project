@@ -44,15 +44,12 @@ transform: translate(-50%, -50%);
     align-content: stretch;
 }
 
-
-
 .left { grid-area: left; opacity: 0%; }
 .right { grid-area: right; opacity: 0%; }
 .footer { grid-area: footer; background-color:#4E4E50; opacity: 96%;
     display:flex;
     flex-wrap: wrap;
 }
-
 
 .grid-container {    background-image: url("bg.jpg");
     opacity: 80%;
