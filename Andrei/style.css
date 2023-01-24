@@ -119,7 +119,7 @@ transform: translate(-50%, -50%);
     
     .grid-container {
     grid-template-rows: 40px auto 200px;
-    grid-template-columns: 5vw auto auto auto auto auto auto auto auto auto auto 5vw;
+    grid-template-columns: 4vw auto auto auto auto auto auto auto auto auto auto 4vw;
     grid-template-areas:
     'header header header header header header header header header header header header'
     'left main main main main main main main main main main right'
@@ -127,6 +127,8 @@ transform: translate(-50%, -50%);
 }
 
     .invisible {display: flex; width: 100%;}
+    .main {padding: 15px;}
+    .txtblock {min-width: 80%; max-width:100%;}
 }
     
 <!--#1A1A1D-->
