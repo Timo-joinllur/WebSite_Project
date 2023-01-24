@@ -1,3 +1,10 @@
+body {
+    background-image: url('images/background.jpg');
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    
+    background-color:#6F2223;
+}
 
 .Name{
     padding: 0;
@@ -6,6 +13,7 @@
     -webkit-text-stroke: 1px #1A1A1D;
     
 }
+
 #navbarNavDropdown{
     font-size: 27px;
     margin-left: 200px;
@@ -19,50 +27,364 @@
 nav{
     background-color: #1A1A1D;
 }
+
+.wrapper{
+    left: 34%;  
+}
+
 .mapouter{
-    position:relative;text-align:right;height:424px;width:799px;
-    margin-top: 5px ;
-    margin-left: 465px;
+    position:relative;
+    margin-left: 320px;
+    text-align:right;
+    height:424px;
+    width:1000px;
+    margin-top: 662px ;
     padding-bottom: 5px;
-
 }
 
-.p1{
-    margin-top: 200px ;
-    margin-left: 100px;
-
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:424px;
+    width:1000px;
 }
-
-
 
 .nav-item {
-        font-family: 'Ranga', cursive;
+    font-family: 'Ranga', cursive;
     color: #1A1A1D;
 }
 
-
-
 article{
-    background-color: #6F2232;
+    margin-top: 1681px;
+}
+
+.footesection-headline{
+    position:absolute;
+    margin-left: 500px ;
+    margin-top: -100px;
+    background-color: #6f6f6f83;
+}
+
+.section-headliner__top-text{
+    
+    position:absolute;
+    margin-left: 640px ;
+    margin-top: -200px;
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #1A1A1D;
+}
+
+.section-headliner__title{
+    
+    position:absolute;
+    margin-left: 550px ;
+    margin-top: -150px;
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    -webkit-text-stroke: 2px #1A1A1D;
+}
+
+
+footer {
+    position: absolute;
+    width: 1740px;
+    height: 450px;
+    left: 0px;
+    top: 2252px;
+    
+    background: #6f6f6f83;
+    
 }
 
 
 
+p1{
+    
+    margin-left: 50px; 
+    position:relative;
+    left: 34%;
+    margin-top: 0px;
+    width: 596px;
+    height: 426px;
+    left: 500px;
+    top: 0px;
+    
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    align-items: center; 
+    text-align: justify;
+    color:#FFFFFF;
+}
 
+p2{
+    position: absolute;
+    width: 930px;
+    height: 150px;
+    left: 120px;
+    
 
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 105px;
+    text-align: center;
 
+}
 
+p3{
+    position: absolute;
+    width: 930px;
+    height: 150px;
+    left: 555px;
+    
+    
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 105px;
+    text-align: center;
+    
+}
 
+p4{   position: absolute;
+   width: 420px;
+   height: 90px;
+   left: 50px;
+   top:100px;
+   
+   font-family: 'Ranga';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 105px;
+   text-align: center;
+}
 
+p5{   position: absolute;
+    width: 420px;
+    height: 90px;
+    left: 250px;
+    top:100px;
+    
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 105px;
+    text-align: center;
+ }
 
+ p6{
+    margin-left: 50px; 
+    position:relative;
+    left: 34%;
+    margin-top: 0px;
+    width: 914px;
+    height: 426px;
+    left: 110px;
+    top: 113px;
+    
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 61px;
+    display: flex;
+    align-items: center; 
+    text-align: justify;
+    color:#FFFFFF;
+}
 
+p7{
+    position: absolute;
+    width: 360px;
+    height: 240px;
+    left: 679px;
+    top: 120px;
 
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
+}
 
+p8{
+    position: absolute;
+    width: 360px;
+    height: 240px;
+    left: 699px;
+    top: 200px;
 
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
+}
 
+p9{
+    position: absolute;
+    width: 360px;
+    height: 240px;
+    left: 1261px;
+    top: 97px;
 
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+p10{
+    position: absolute;
+    width: 360px;
+    height: 240px;
+    left: 1199px;
+    top: 150px;
+
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+p11{
+    position: absolute;
+    width: 360px;
+    height: 240px;
+    left: 1423px;
+    top: 203px;
+
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+p12{
+    
+    margin-left: 50px; 
+    position:relative;
+    left: 34%;
+    margin-top: 0px;
+    width: 596px;
+    height: 426px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: 'Ranga';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    align-items: center; 
+    text-align: justify;
+    color:#FFFFFF;
+}
+
+.image{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 136px;
+    top: 123px;
+ 
+}
+
+.ig{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 100px;
+    top: 303px;
+ 
+ 
+}
+
+.fb{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 225px;
+    top: 303px;
+}
+.twitter{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 355px;
+    top: 303px;
+}
+
+.burgeria{
+    position: absolute;
+    width: 424px;
+    height: 288px;
+    left: 740px;
+    top: 495px;
+ 
+}
+
+.pizzeria{
+    position: absolute;
+    width: 424px;
+    height: 288px;
+    left: 60px;
+    top: 75px;
+ 
+}
+
+.rectangle{
+ position: absolute;
+ width: 1240px;
+ height: 2612px;
+ left: 200px;
+ right:200px;
+ top: 90px;
+ 
+ background: #6F2223;
+ opacity: 0.95;
+}
 
 @media only screen and (max-width: 500px){
     
