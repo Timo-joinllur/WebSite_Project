@@ -31,6 +31,10 @@ transform: translate(-50%, -50%);
     flex-direction: row-reverse;
     align-items: stretch;
 }
+ .header a {
+    text-decoration: none;
+    color: #fff;
+ }
 
 .main { grid-area: main; background-color: #1A1A1D; opacity: 93%;
     display: flex;
