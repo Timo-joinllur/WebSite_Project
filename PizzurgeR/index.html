@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ranga&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ranga&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="grid-container">
-
 
     <div class="header">
         <div style="flex-grow: 3; vertical-align: middle; "><button class="button vcenter"> <a href="/PizzurgeR/contact.html">Contact</a></button> </div>
@@ -22,15 +21,59 @@
         <div style="flex-grow: 3; vertical-align: middle; "><button class="button vcenter"> <a href="/PizzurgeR/reservation.html">Reservation</a></button> </div>
         <div style="flex-grow: 3; vertical-align: middle; "><button class="button vcenter"> <a href="/PizzurgeR/menu.html">Menu</a></button> </div>
         <div style="flex-grow: 6"></div>
-        <div style="flex-grow: 1">Pizzurger</div>
-        <div style="flex-grow: 1"><img src="/Timofei/images/logo.jpg" alt="logo" style="height: 35px; width: 35px;"></div>
+   <!-- <div style="flex-grow: 1">Pizzurger</div> --> 
+        <div style="flex-grow: 1"><img src="/Timofei/images/logo.jpg" alt="logo" style="height: 40px; width: 40px;"> Pizzurger </div>
     </div>
     
     <div class="main">
         
         <div class="cntrblock"><h1>The only place to eat in Hämeenlinna! </h1></div>
         
-        <div class="imgblock"><img src="/Roy/images/burger1.jpg" alt="pizza"></div>
+        <!--Bootstrap Carousel-->
+        <div id="carousel" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/Roy/images/pizza1.jpg" class="d-block"alt="pizza1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>"Food name"</h3>
+                  <p>"Short description."</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/Roy/images/burger1.jpg" class="d-block"alt="burger1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>"Food name"</h3>
+                  <p>"Short description."</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/Roy/images/pizza2.jpg" class="d-block"alt="pizza2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>"Food name"</h3>
+                  <p>"Short description."</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!--Bootstrap Carousel ends here-->  
+
+
+
+         
+     <!--   <div class="imgblock"><img src="/Roy/images/burger1.jpg" alt="pizza"></div>
         <div class="txtblock">Fugiat si nescius. Velit concursionibus vidisse aliqua proident o et fugiat 
             eruditionem, fugiat eiusmod ita familiaritatem, de ubi summis cillum anim, 
             singulis quorum aut pariatur despicationes, sint iudicem de tamen aliqua, 
@@ -41,6 +84,7 @@
             nisi anim cillum. Ex amet consequat nescius, mentitum dolor varias qui aliqua 
             est sed quo legam proident o e nisi dolore dolore tempor. Ab non irure tamen 
             sunt, quid vidisse sed enim irure.</div>
+            
         <div class="invisible">~~~~~~~~</div>
         <div class="txtblock">A do legam vidisse, tempor fugiat quem probant quid non te id quis expetendis, 
             aut enim laboris ullamco, esse concursionibus laboris enim commodo, ea esse 
@@ -50,6 +94,8 @@
             laborum despicationes, offendit non admodum e in ea quid quorum duis. An sunt 
             fidelissimae. Ut amet cernantur nostrud.</div>
         <div class="imgblock"><img src="/Roy/images/pizza2.jpg" alt="pizza"></div>
+        --> 
+
         <div class="imgblock"><img src="/PizzurgeR/images/burger2.jpg" alt="pizza"></div>
         <div class="txtblock">Fugiat si nescius. Velit concursionibus vidisse aliqua proident o et fugiat 
             eruditionem, fugiat eiusmod ita familiaritatem, de ubi summis cillum anim, 

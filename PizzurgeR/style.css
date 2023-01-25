@@ -133,6 +133,29 @@ transform: translate(-50%, -50%);
     .main {padding: 15px;}
     .txtblock {min-width: 80%; max-width:100%;}
 }
+
+.carousel-item > img {
+    height: auto;
+    width: 45%;
+    margin: auto;
+  }
+  
+  #carousel {
+    padding-bottom: 100px;
+  
+  }
+  
+  .carousel-indicators {
+    padding-bottom: 60px;
+  }
+  
+  
+  
+  .image1{
+    width: 400px;
+    height: auto;
+  
+  }
     
 /* <!--#1A1A1D-->
 <!--#4E4E50--> 
