@@ -5,8 +5,8 @@ vertical-align: middle;
 text-align: center;
 align-content: center;
 background-color: #6f2232;
-  word-wrap: break-word;
-  hyphens: auto;
+word-wrap: break-word;
+hyphens: auto;
 margin: 0;
 color: #ffff;
 position: relative;
@@ -136,6 +136,7 @@ transform: translate(-50%, -50%);
     .txtblock {min-width: 80%; max-width:100%;}
 }
 
+/* Carousel CSS */
 .carousel-item > img {
     height: auto;
     width: 45%;
@@ -151,17 +152,24 @@ transform: translate(-50%, -50%);
     padding-bottom: 60px;
   }
   
-  
-  
   .image1{
     width: 400px;
     height: auto;
   
   }
-    
-/* <!--#1A1A1D-->
-<!--#4E4E50--> 
-<!--#6F2232-->
-<!--#950740-->
-<!--#C3073F-->
+/* Carousel CSS ends */
+
+/* Map CSS */
+.googlemap{
+    width: 60%;
+}
+/* Map CSS ends */
+
+
+/*   
+#1A1A1D
+#4E4E50
+#6F2232
+#950740
+#C3073F
  */
