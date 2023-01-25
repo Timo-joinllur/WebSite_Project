@@ -25,10 +25,12 @@ top: 50%;
 transform: translate(-50%, -50%);
 }
 
-.header { grid-area: header; background-color:#1A1A1D; opacity: 100%;             position: sticky; top: 0; z-index: 1;
+.header { grid-area: header; background-color:#1A1A1D; opacity: 100%;             
+    position: sticky; top: 0; z-index: 1;
     display: flex;
     flex-direction: row-reverse;
     align-items: stretch;
+    font-size: x-large;
 }
  .header a {
     text-decoration: none;
@@ -63,7 +65,7 @@ transform: translate(-50%, -50%);
 }
 
 .grid-container {
-    grid-template-rows: 40px auto 120px;
+    grid-template-rows: 60px auto 120px;
     grid-template-columns: 5vw auto auto auto auto auto auto auto auto auto auto 5vw;
     grid-template-areas:
     'header header header header header header header header header header header header'
