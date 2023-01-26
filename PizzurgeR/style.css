@@ -28,6 +28,12 @@ p1{
     -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: #ffffff; 
 }
+h2{
+    font-family:'Rancho', cursive;
+    color:#4E4E50;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #ffffff; 
+}
 .vcenter {
 margin: 0;
 position: absolute;
