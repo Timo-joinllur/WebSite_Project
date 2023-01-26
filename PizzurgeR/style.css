@@ -35,7 +35,9 @@ transform: translate(-50%, -50%);
  .header a {
     text-decoration: none;
     color: #fff;
+    font-size:18px;
  }
+
 
 .main { grid-area: main; background-color: #1A1A1D; opacity: 93%;
     display: flex;
@@ -58,7 +60,7 @@ transform: translate(-50%, -50%);
     flex-wrap: wrap;
 }
 
-.grid-container {    background-image: url("bg.jpg");
+.grid-container {    background-image: url('images/bg.jpg');
     opacity: 80%;
     min-height: 100vh;
     display: grid;
@@ -119,8 +121,12 @@ transform: translate(-50%, -50%);
 
 .invisible {display: none;}
 
+.visible {
+    display: flex;
+}
+
 @media (max-width: 560px){
-    .button { width: 13%; font-size: 75%;}
+
     
     .grid-container {
     grid-template-rows: 40px auto 200px;
@@ -134,6 +140,13 @@ transform: translate(-50%, -50%);
     .invisible {display: flex; width: 100%;}
     .main {padding: 15px;}
     .txtblock {min-width: 80%; max-width:100%;}
+    .visible {display: none;}
+    .header a {
+        text-decoration: none;
+        color: #fff;
+        font-size:13px;
+     }
+     .button { width: 14%; font-size: 70%;}
 }
 
 /* Carousel CSS */
@@ -161,7 +174,9 @@ transform: translate(-50%, -50%);
 
 /* Map CSS */
 .googlemap{
-    width: 60%;
+    max-width: 90%;
+    max-height: 5%;
+    
 }
 /* Map CSS ends */
 
