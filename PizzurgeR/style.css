@@ -17,6 +17,17 @@ img {
     width: 100%;
 }
 
+p{
+    font-family:'Inria Serif';
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #C3073F; 
+}
+p1{
+    font-family:'Inria Serif';
+    color:#C3073F;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #ffffff; 
+}
 .vcenter {
 margin: 0;
 position: absolute;
@@ -50,9 +61,18 @@ transform: translate(-50%, -50%);
     align-content: stretch;
 }
 
-.left { grid-area: left; opacity: 0%; }
-.right { grid-area: right; opacity: 0%; }
-.footer { grid-area: footer; background-color:#4E4E50; opacity: 96%;
+.left {
+    grid-area: left;
+    opacity: 0%;
+}
+.right { 
+    grid-area: right;
+    opacity: 0%;
+}
+.footer { 
+    grid-area: footer;
+    background-color:#4E4E50;
+    opacity: 96%;
     display:flex;
     flex-wrap: wrap;
 }
@@ -64,7 +84,7 @@ transform: translate(-50%, -50%);
 }
 
 .grid-container {
-    grid-template-rows: 40px auto 120px;
+    grid-template-rows: 40px auto 140px;
     grid-template-columns: 5vw auto auto auto auto auto auto auto auto auto auto 5vw;
     grid-template-areas:
     'header header header header header header header header header header header header'
@@ -124,7 +144,7 @@ transform: translate(-50%, -50%);
 
     
     .grid-container {
-    grid-template-rows: 40px auto 200px;
+    grid-template-rows: 40px auto 240px;
     grid-template-columns: 4vw auto auto auto auto auto auto auto auto auto auto 4vw;
     grid-template-areas:
     'header header header header header header header header header header header header'
