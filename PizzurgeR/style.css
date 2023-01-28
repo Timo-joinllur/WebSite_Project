@@ -150,7 +150,7 @@ transform: translate(-50%, -50%);
 
     
     .grid-container {
-    grid-template-rows: 40px auto 240px;
+    grid-template-rows: 40px auto 260px;
     grid-template-columns: 4vw auto auto auto auto auto auto auto auto auto auto 4vw;
     grid-template-areas:
     'header header header header header header header header header header header header'
