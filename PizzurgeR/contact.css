@@ -18,11 +18,17 @@
 
 .googlemap {
     max-width: 80%;
-    max-height: 10%;
+    max-height: 8%;
 }
 
 @media (max-width:770px)
 {
     .email { font-size: 40px;}
     .phone { font-size: 50px;}
+}
+
+@media (max-width:400px)
+{
+    .email { font-size: 20px;}
+    .phone { font-size: 30px;}
 }
